@@ -1,0 +1,16 @@
+input, textarea {
+	background-color: #FFFF00; /* YELLOW */
+}
+
+option {
+	background-color: #FFFF00; /* YELLOW */
+}
+
+#field-lastname {
+	font-weight: bold;
+}
+
+#instructions {
+	border-color: #FF0000; /* RED */
+	border-style: dashed;
+}

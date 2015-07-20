@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body>
+<h1>Job Application Form</h1>
+<p id="instructions">Please fill in the form to apply</p>
+<br>
+<form action="/application" id="applicationForm" method="POST">
+	<label for="field-firstname">First Name: </label>
+		<input type="text" name="firstname" id="field-firstname" form="applicationForm">
+		<br>
+	
+	<label for="field-lastname">Last Name: </label>
+		<input type="text" name="lastname" id="field-lastname" form="applicationForm">
+		<br>
+	
+	<label for="field-salaryRequrement">Salary Requirement: </label>
+		<input type="number" name="salaryRequirement" id="field-salaryRequirement" form="applicationForm">
+		<br>
+	
+	<label for="field-jobApplyingFor">Job Applying For: </label>
+		<select name="jobApplyingFor" id="field-jobApplyingFor" form="applicationForm">
+			<option value="softwareEngineer">Software Engineer</option>
+			<option value="qaEngineer">QA Engineer</option>
+			<option value="productManager">Product Manager</option>
+		</select>
+			
+		<br>
+		<br>
+		<input type="submit" form="applicationForm">
+		
+</form>
+
+
+</body>
+</html>
